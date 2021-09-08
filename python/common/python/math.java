@@ -19,7 +19,7 @@ public class math extends org.python.types.Module {
     public static org.python.Object __spec__ = org.python.types.NoneType.NONE;  // TODO
 
 	@org.python.Method(
-            __doc__ = "caculate abslote value",
+            __doc__ = "caculate absolute value",
 			args = {"x"}
     )
     public static org.python.Object fabs(org.python.Object x) {
